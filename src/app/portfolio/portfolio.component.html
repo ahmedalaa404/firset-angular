@@ -1,0 +1,17 @@
+<section class="py-5">
+  <div class="container w-50">
+    <div class="d-flex justify-content-center align-items-center">
+      <app-s-title></app-s-title>
+    </div>
+    <div class="row g-5">
+      <div class="col-lg-4" *ngFor="let x of storeImage">
+        <div class="position-relative image-portfolio">
+          <img [src]="baseUrl+x" alt="" class="w-100 rounded-4">
+          <div class="position-absolute d-flex justify-content-center align-items-center top-0 end-0 w-100 h-100 cover-portfolio rounded-4" >
+            <i class="fa-solid fa-plus text-white fs-1"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

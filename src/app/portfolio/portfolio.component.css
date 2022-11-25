@@ -1,0 +1,11 @@
+
+.cover-portfolio
+{
+  background-color:#1abc9cd5 ;
+  opacity: 0;
+  transition: 0.2s;
+}
+.image-portfolio:hover .cover-portfolio
+{
+  opacity: 1;
+}
